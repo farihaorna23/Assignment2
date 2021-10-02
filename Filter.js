@@ -23,12 +23,15 @@ Array.prototype.myFilter = function(callbackFn) {
 
     for(let i=0; i<this.length; i++)
     {
-        callbackFn(this[i], i, this);
-        
-        if(callbackFn(this[i], i, this)==true) //should I put the if condition   if(this[i]===undefined) continue;
+        if(this[i]===undefined) continue;
         {
+            callbackFn(this[i], i, this);
+        
+            if(callbackFn(this[i], i, this)==true) //should I put the if condition   if(this[i]===undefined) continue;
+            {
             
             arr.push(this[i]); 
+            }
         }
       
     }
@@ -52,3 +55,4 @@ console.log(words.filter((x)=>(x.length> 6)));
 console.log("the result for filter is:");
 console.log(filtered.filter((x)=>(x> 10)));
 // filtered is [12, 130, 44]
+

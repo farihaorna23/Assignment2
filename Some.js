@@ -32,7 +32,7 @@ Array.prototype.mySome = function(callbackFn) {
 
 
 
-
+/*
 //Test1
 const array = [1, 2, 3, 4, 5];
 console.log("test 1")
@@ -73,7 +73,7 @@ function check(arr, val) {
 
 console.log(check(fruits, 'kela'));   // false
 console.log(check(fruits, 'banana')); // true
-
+*/
 
 
 

@@ -21,6 +21,7 @@ Array.prototype.myPush = function(...args) {
  return this.length; //the length of arr
 };
 
+/*
 console.log("test1")
 const arr=[1,2,3];
 console.log("myPush result:")
@@ -44,7 +45,7 @@ animals.myPush('chickens', 'cats', 'dogs');
 console.log(animals);
 // expected output: Array ["pigs", "goats", "sheep", "cows", "chickens", "cats", "dogs"]
 
-
+*/
 
 
 

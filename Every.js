@@ -38,7 +38,7 @@ Array.prototype.myEvery = function(callbackFn) {
 
 
 
-
+/*
 console.log("test1")
 const isBelowThreshold = (currentValue) => currentValue < 40;
 
@@ -75,3 +75,4 @@ function isSubset(array1, array2) {
 
 console.log(isSubset([1, 2, 3, 4, 5, 6, 7], [5, 7, 6])); // true
 console.log(isSubset([1, 2, 3, 4, 5, 6, 7], [5, 8, 7])); // false
+*/

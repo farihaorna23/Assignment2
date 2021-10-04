@@ -48,6 +48,7 @@ Array.prototype.myLastIndexOf = function(searchElement, fromIndex) {
     
 };
 
+/*
 console.log("test1")
 var numbers = [2, 5, 9, 2];
 console.log(numbers.myLastIndexOf(2));     // 3
@@ -56,3 +57,4 @@ console.log(numbers.myLastIndexOf(2, 3));  // 3
 console.log(numbers.myLastIndexOf(2, 2));  // 0
 console.log(numbers.myLastIndexOf(2, -2)); // 0
 console.log(numbers.myLastIndexOf(2, -1)); // 3
+*/

@@ -15,7 +15,13 @@ A “reducer” function that takes four arguments:
 previousValue (the value resulting from the previous call to callbackfn)
 currentValue (the value of the current element)
 currentIndex Optional
-array (the array to traverse) Optiona
+array (the array to traverse) Optional
+
+initialValue Optional
+A value to which previousValue is initialized the first time the callback is called. 
+If initialValue is specified, that also causes currentValue to be initialized to the first value in the array. 
+If initialValue is not specified, previousValue is initialized to the first value in the array, 
+and currentValue is initialized to the second value in the array.
 
 Return value
 The value that results from running the “reducer” callback function to completion over the entire array.
@@ -59,6 +65,7 @@ Array.prototype.myReduce = function(callbackFn,initialValue) {
       
 };
 
+/*
 console.log("test1")
 const array1 = [1, 2, 3, 4];
 const reducer = (previousValue, currentValue) => previousValue + currentValue;
@@ -86,3 +93,4 @@ console.log([    50].myReduce(getMax));     // 50
 console.log([      ].myReduce(getMax, 1));  // 1
 
 console.log([      ].myReduce(getMax));     // TypeError
+*/

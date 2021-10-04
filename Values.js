@@ -25,13 +25,14 @@ for(const i in obj)
 return arr;
 };
 
-console.log("test1")
+//console.log("test1")
 const object1 = {
     a: 'somestring',
     b: 42,
     c: false
   };
-  
+
+/*
 console.log(Object.grabValues(object1));
 // expected output: Array ["somestring", 42, false]
 
@@ -55,4 +56,4 @@ console.log(Object.grabValues(my_obj)); // ['bar']
 
 // non-object argument will be coerced to an object
 console.log(Object.grabValues('foo')); // ['f', 'o', 'o']
-
+*/

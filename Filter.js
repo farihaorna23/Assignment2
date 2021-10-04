@@ -37,6 +37,8 @@ Array.prototype.myFilter = function(callbackFn) {
     return arr; 
 };
 
+
+/*
 //Test
 
 const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
@@ -74,3 +76,4 @@ function isPrime(num) {
 
 console.log(array.myFilter(isPrime)); // [2, 3, 5, 7, 11, 13]
 
+*/

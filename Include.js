@@ -41,6 +41,7 @@ Array.prototype.myIncludes = function(searchElement, fromindex=0) {
     return false;
 };
 
+/*
 //Test
 const array1 = [1, 2, 3];
 const pets = ['cat', 'dog', 'bat'];
@@ -69,7 +70,7 @@ console.log(arr.myIncludes('a', -100)) // true
 console.log(arr.myIncludes('b', -100)) // true
 console.log(arr.myIncludes('c', -100)) // true
 console.log(arr.myIncludes('a', -2))   // false
-
+*/
 
 
 

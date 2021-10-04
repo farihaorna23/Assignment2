@@ -54,6 +54,7 @@ Array.prototype.myIndexOf = function(searchElement, fromIndex=0) {
     
 };
 
+/*
 console.log("test1")
 const beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
 
@@ -75,5 +76,5 @@ console.log(array.myIndexOf(7));     // -1
 console.log(array.myIndexOf(9, 2));  // 2
 console.log(array.myIndexOf(2, -1)); // -1
 console.log(array.myIndexOf(2, -3)); // 0
-
+*/
 
